@@ -35,13 +35,14 @@ export const About = () => {
               <h5>Projects</h5>
               <small>2 Completed</small>
             </article>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              iste voluptatum mollitia eaque ut sit enim ipsa, minima nihil eum
-              soluta, necessitatibus quis sed, quas vitae reprehenderit
-              accusamus officia repudiandae.
-            </p>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            iste voluptatum mollitia eaque ut sit enim ipsa, minima nihil eum
+            soluta, necessitatibus quis sed, quas vitae reprehenderit accusamus
+            officia repudiandae.
+          </p>
+
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
