@@ -5,6 +5,23 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 export const About = () => {
+  let arr = [
+    {
+      icon: <FaAward className="about_icon" />,
+      item: "Experience",
+      details: "6 Months Working",
+    },
+    {
+      icon: <FiUsers className="about_icon" />,
+      item: "Clients",
+      details: "No",
+    },
+    {
+      icon: <VscFolderLibrary className="about_icon" />,
+      item: "Projects",
+      details: "2 Completed",
+    },
+  ];
   return (
     <section id="about">
       <h5>Get To Know</h5>
@@ -18,29 +35,24 @@ export const About = () => {
 
         <div className="about_content">
           <div className="about_cards">
-            <article className="about_card">
-              <FaAward className="about_icon" />
-              <h5>Experience</h5>
-              <small>6 Months Working</small>
-            </article>
-
-            <article className="about_card">
-              <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>No</small>
-            </article>
-
-            <article className="about_card">
-              <VscFolderLibrary className="about_icon" />
-              <h5>Projects</h5>
-              <small>2 Completed</small>
-            </article>
+            {arr.map((list, ind) => {
+              const { icon, item, details } = list;
+              return (
+                <article className="about_card" key={ind}>
+                  {icon}
+                  <h5>{item}</h5>
+                  <small>{details}</small>
+                </article>
+              );
+            })}
           </div>
+
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            iste voluptatum mollitia eaque ut sit enim ipsa, minima nihil eum
-            soluta, necessitatibus quis sed, quas vitae reprehenderit accusamus
-            officia repudiandae.
+            As a frontend developer with 6 months of experience, I'm passionate
+            about creating beautiful and user-friendly web experiences. I
+            specialize in HTML, CSS, JavaScript, and React and work closely with
+            clients to ensure timely project delivery. Let's discuss your next
+            project!
           </p>
 
           <a href="#contact" className="btn btn-primary">

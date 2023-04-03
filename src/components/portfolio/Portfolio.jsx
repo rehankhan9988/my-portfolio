@@ -10,27 +10,39 @@ export const Portfolio = () => {
   let arr = [
     {
       img: IMG1,
-      item: "Portfolio item",
+      item: "CRUD using Redux toolkit",
+      gitLink: "https://github.com/rehankhan9988/crud-redux-toolkit",
+      demoLink: "https://crud-toolkit-redux.netlify.app/",
     },
     {
       img: IMG2,
-      item: "Portfolio item",
+      item: "CRUD using FireBase",
+      gitLink: "https://github.com/rehankhan9988/firebase",
+      demoLink: "https://firebase-book.netlify.app/",
     },
     {
       img: IMG3,
-      item: "Portfolio item",
+      item: "CRUD using React Redux",
+      gitLink: "https://github.com/rehankhan9988/crud-redux",
+      demoLink: "https://mellow-bunny-a6f21f.netlify.app/",
     },
     {
       img: IMG4,
-      item: "Portfolio item",
+      item: "Samar React Template",
+      gitLink: "https://github.com/rehankhan9988/clone-appgenii",
+      demoLink: "https://glittery-khapse-445cab.netlify.app/",
     },
     {
       img: IMG5,
-      item: "Portfolio item",
+      item: "Appsgenii wesite first page",
+      gitLink: "https://github.com/rehankhan9988/react-template",
+      demoLink: "https://famous-griffin-7b8b93.netlify.app/",
     },
     {
       img: IMG6,
       item: "Portfolio item",
+      gitLink: "https://github.com/rehankhan9988/crud-redux-toolkit",
+      demoLink: "https://crud-toolkit-redux.netlify.app/",
     },
   ];
   return (
@@ -39,7 +51,7 @@ export const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio_container">
         {arr.map((elem) => {
-          const { img, item } = elem;
+          const { img, item, gitLink, demoLink } = elem;
           return (
             <article className="portfolio_item">
               <div className="portfolio_item-img">
@@ -47,14 +59,10 @@ export const Portfolio = () => {
               </div>
               <h3> {item}</h3>
               <div className="portfolio_item-cta">
-                <a href="https://github.com" target="_blank" className="btn">
+                <a href={gitLink} target="_blank" className="btn">
                   GitHub
                 </a>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  className="btn btn-primary"
-                >
+                <a href={demoLink} target="_blank" className="btn btn-primary">
                   Live Demo
                 </a>
               </div>
