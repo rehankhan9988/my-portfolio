@@ -9,18 +9,6 @@ import IMG6 from "../../assets/portfolio6.jpg";
 export const Portfolio = () => {
   let arr = [
     {
-      img: IMG1,
-      item: "CRUD using Redux toolkit",
-      gitLink: "https://github.com/rehankhan9988/crud-redux-toolkit",
-      demoLink: "https://crud-toolkit-redux.netlify.app/",
-    },
-    {
-      img: IMG2,
-      item: "CRUD using FireBase",
-      gitLink: "https://github.com/rehankhan9988/firebase",
-      demoLink: "https://firebase-book.netlify.app/",
-    },
-    {
       img: IMG3,
       item: "CRUD using React Redux",
       gitLink: "https://github.com/rehankhan9988/crud-redux",
@@ -37,6 +25,18 @@ export const Portfolio = () => {
       item: "Appsgenii wesite first page",
       gitLink: "https://github.com/rehankhan9988/react-template",
       demoLink: "https://famous-griffin-7b8b93.netlify.app/",
+    },
+    {
+      img: IMG1,
+      item: "CRUD using Redux toolkit",
+      gitLink: "https://github.com/rehankhan9988/crud-redux-toolkit",
+      demoLink: "https://crud-toolkit-redux.netlify.app/",
+    },
+    {
+      img: IMG2,
+      item: "CRUD using FireBase",
+      gitLink: "https://github.com/rehankhan9988/firebase",
+      demoLink: "https://firebase-book.netlify.app/",
     },
     {
       img: IMG6,

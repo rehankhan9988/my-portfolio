@@ -31,7 +31,7 @@ export const Nav = () => {
         <BiBook />
       </a>
       <a
-        href="#services"
+        href="#portfolio"
         className={activeNav == "#services" ? "active" : ""}
         onClick={() => setActiveNav("#services")}
       >

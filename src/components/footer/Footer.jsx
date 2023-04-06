@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer_logo">
-        REHAN
+        MUHAMMAD REHAN KHAN
       </a>
       <ul className="permalinks">
         <i>
@@ -27,18 +27,18 @@ export const Footer = () => {
         </i>
       </ul>
       <div className="footer_socials">
-        <a href="https://facebook.com">
+        <a href="https://www.facebook.com/rahankhan.khan.50702" target="_blank">
           <FaFacebookF />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://www.instagram.com/rehan_khan998864/" target="_blank">
           <FiInstagram />
         </a>
-        <a href="https://teitter.com">
+        <a href="https://twitter.com/Rehan998864" target="_blank">
           <IoLogoTwitter />
         </a>
       </div>
       <div className="footer_copyright">
-        <small>&copy;Rehan Khan. All rights reserved</small>
+        <small>&copy;Rehan Khan</small>
       </div>
     </footer>
   );
