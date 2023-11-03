@@ -16,6 +16,8 @@
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .contact_option:hover {
   background: transparent;

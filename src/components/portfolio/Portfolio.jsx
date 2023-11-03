@@ -62,9 +62,9 @@ export const Portfolio = () => {
                 <a href={gitLink} target="_blank" className="btn">
                   GitHub
                 </a>
-                <a href={demoLink} target="_blank" className="btn btn-primary">
+                {/* <a href={demoLink} target="_blank" className="btn btn-primary">
                   Live Demo
-                </a>
+                </a> */}
               </div>
             </article>
           );
