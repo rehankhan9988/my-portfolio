@@ -31,6 +31,10 @@ export const Experience = () => {
       skill: "React-Redux",
       experience: "Mid-level",
     },
+    {
+      skill: "Next js",
+      experience: "Mid-level",
+    },
   ];
   return (
     <section id="experience">

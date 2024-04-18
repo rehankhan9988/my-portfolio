@@ -9,7 +9,7 @@ export const About = () => {
     {
       icon: <FaAward className="about_icon" />,
       item: "Experience",
-      details: "1 year Working",
+      details: "2 year Working",
     },
     {
       icon: <FiUsers className="about_icon" />,
@@ -19,7 +19,7 @@ export const About = () => {
     {
       icon: <VscFolderLibrary className="about_icon" />,
       item: "Projects",
-      details: "4 Completed",
+      details: "6 Completed",
     },
   ];
   return (
